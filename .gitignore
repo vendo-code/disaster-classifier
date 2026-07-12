@@ -1,0 +1,29 @@
+# Model besar — jangan push ke GitHub
+models/*.h5
+models/*.keras
+models/*.pb
+
+# Data
+data/train/
+data/val/
+data/test/
+data/*.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
